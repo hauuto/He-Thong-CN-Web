@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tuan01/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tuan01/images/smith.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan01/html/Bai4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai4/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,25 +38,33 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Bai1.html.executor": "Run",
     "JavaScript Debug.Bai2a.html.executor": "Run",
+    "JavaScript Debug.Bai6a.html.executor": "Run",
     "JavaScript Debug.bai5.html.executor": "Run",
     "JavaScript Debug.bai5a.html.executor": "Coverage",
-    "JavaScript Debug.bai5b.html.executor": "Coverage",
+    "JavaScript Debug.bai5b.html.executor": "Run",
+    "JavaScript Debug.bai6a.html.executor": "Run",
+    "JavaScript Debug.bai7.html.executor": "Coverage",
+    "JavaScript Debug.baitap2a.html.executor": "Run",
     "JavaScript Debug.class.html.executor": "Run",
     "JavaScript Debug.home.html.executor": "Run",
     "JavaScript Debug.slide1.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Github/He-Thong-CN-Web",
+    "last_opened_file_path": "D:/Github/23660471_ToThanhHau",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\html" />
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
@@ -77,11 +87,17 @@
       <option name="presentableId" value="Default" />
       <updated>1735624102349</updated>
       <workItem from="1735624103564" duration="3046000" />
-      <workItem from="1735627197401" duration="4180000" />
+      <workItem from="1735627197401" duration="12354000" />
+      <workItem from="1735875329790" duration="15000" />
+      <workItem from="1735875377961" duration="15559000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/He_Thong_CN_Web$bai5b_html.dat" NAME="bai5b.html Coverage Results" MODIFIED="1735631385737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/23660471_ToThanhHau$bai7_html.dat" NAME="bai7.html Coverage Results" MODIFIED="1735900120577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

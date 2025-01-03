@@ -1,0 +1,116 @@
+body{
+    background-color: #F0F0F0;
+    line-height: 1.6;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+td{
+    width: 50%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+
+
+header,nav{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+nav{
+    padding-left: 70px;
+}
+
+h1{
+    font-size: 50px;
+    color: #347928;
+}
+
+#top-page{
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#intro{
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    padding: 20px 70px;
+    margin: 90px 0;
+    border-radius: 30px;
+}
+
+#overview{
+    text-align: center;
+    background-color: #FEFAE0;
+    font-size: 25px;
+    padding: 20px 70px;
+    margin: 90px 0;
+    border-radius: 30px;
+}
+
+#features{
+    text-align: center;
+    background-color: #FAEDCE;
+    font-size: 25px;
+    padding: 70px 70px;
+    margin: 90px 0;
+    border-radius: 30px;
+}
+
+#dimensions{
+    text-align: center;
+    background-color: #E0E5B6;
+    font-size: 25px;
+    padding: 20px 70px;
+    border-radius: 30px;
+    margin: 90px 0;
+}
+
+#optional-attachments{
+    text-align: center;
+    background-color: #CCD5AE;
+    font-size: 25px;
+    padding: 20px 70px;
+    border-radius: 30px;
+    margin: 90px 0;
+}
+
+#footer{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 90px;
+    border-top: solid black 2px;
+    line-height: 0.4;
+}
+
+
+.nav--text{
+    font-size: 25px;
+    height: 500px;
+    margin-right: 120px;
+    text-decoration: none;
+    color: #347928;
+}
+
+.nav--text:hover{
+    color: #C0EBA6;
+}

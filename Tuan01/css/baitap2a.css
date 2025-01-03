@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f4c5;
+}
+.container {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+header {
+    grid-column: span 3;
+    background-color: #FCCD2A;
+    text-align: center;
+    padding: 10px;
+}
+menu {
+    grid-column: span 3;
+    background-color: #FCCD2A;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: #FCCD2A;
+    padding: 10px;
+}
+article {
+    background-color: #FCCD2A;
+    padding: 10px;
+}
+section {
+    background-color: #FCCD2A;
+    padding: 10px;
+}
+footer {
+    grid-column: span 3;
+    background-color: #FCCD2A;
+    text-align: center;
+    padding: 10px;
+}

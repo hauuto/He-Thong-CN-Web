@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        .form {
+            display: grid;
+            grid-template-columns: 10% 90%;
+            width: 100%;
+            font-size: large;
+        }
+
+        legend {
+            font-size: large;
+        }
+
+        fieldset {
+            border: 2px solid black;
+            width: 96.5%;
+        }
+    </style>
+</head>
+
+<body style="line-height: 1.4;">
+    <div style="width: 50%; border: 2px solid #a0ccfc">
+        <h1>Contact Us</h1>
+
+        <!-- Section 1 -->
+        <form>
+            <fieldset>
+                <legend>Your message:</legend>
+
+                <div class="form">
+                    <div>
+                        <label for="to">To:</label> <br>
+                        <label for="yourEmail">Your email:</label> <br>
+                    </div>
+
+                    <div>
+                        <input type="text" id="to" name="to" style="width: 250px;"> <br>
+                        <input type="email" id="yourEmail" name="yourEmail" style="width: 250px;"> <br>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div style="position: relative;">
+                        <label for="message"
+                            style="position: absolute; top: 50%; transform: translateY(-50%);">Message:</label> <br>
+                    </div>
+
+                    <div>
+                        <textarea id="message" name="message"
+                            style="width: 500px; height: 200px; max-width: 500px; max-height: 200px;"></textarea> <br>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div>
+                        <label for="attachment">Attach File:</label> <br>
+                    </div>
+
+                    <div>
+                        <input type="file" id="attachment" name="attachment"> <br>
+                    </div>
+            </fieldset>
+
+            <!-- Section 2 -->
+            <fieldset>
+                <legend>How you found us:</legend>
+
+                <div class="form" style="grid-template-columns: 21.5% 78.5%;">
+                    <div>
+                        <label for="how">How did you hear from us</label> <br>
+                        <label for="newsletter">Newsletter</label> <br>
+                    </div>
+
+                    <div>
+                        <select id="how" name="how" style="width: 250px;">
+                            <option value="search">Google</option>
+                            <option value="friend">From a friend</option>
+                            <option value="yourMom">Your Mom</option>
+                            <option value="other">Other</option>
+                        </select> <br>
+
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Ensure this box is checked if you would
+                            like to receive email updates</label> <br>
+                    </div>
+            </fieldset>
+
+            <!-- Submit Section -->
+            <input type="submit" value="Send message"> <br> <br>
+        </form>
+    </div>
 </body>
+
 </html>

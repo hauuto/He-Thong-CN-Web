@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan01/html/Bai6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai5a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai5a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai5b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai5b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai6a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,39 +37,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Bai1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai2a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai6a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai5.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai5a.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.bai5b.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai6a.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.bai7.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.baitap2a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.class.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.slide1.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Github/23660471_ToThanhHau&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Bai1.html.executor": "Run",
+    "JavaScript Debug.Bai2a.html.executor": "Run",
+    "JavaScript Debug.Bai6a.html.executor": "Run",
+    "JavaScript Debug.bai5.html.executor": "Run",
+    "JavaScript Debug.bai5a.html.executor": "Run",
+    "JavaScript Debug.bai5b.html.executor": "Run",
+    "JavaScript Debug.bai6a.html.executor": "Coverage",
+    "JavaScript Debug.bai7.html.executor": "Coverage",
+    "JavaScript Debug.baitap2a.html.executor": "Run",
+    "JavaScript Debug.class.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.slide1.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hauuto",
+    "last_opened_file_path": "D:/Github/23660471_ToThanhHau",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\images" />
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\html" />
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01" />
@@ -91,6 +99,7 @@
       <workItem from="1735919277287" duration="603000" />
       <workItem from="1735920324670" duration="10882000" />
       <workItem from="1735989205979" duration="893000" />
+      <workItem from="1736087488774" duration="1204000" />
     </task>
     <servers />
   </component>

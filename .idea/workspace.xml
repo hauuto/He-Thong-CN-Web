@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tuan01/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tuan01/images/smith.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,34 +31,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Bai1.html.executor": "Run",
-    "JavaScript Debug.Bai2a.html.executor": "Run",
-    "JavaScript Debug.Bai6a.html.executor": "Run",
-    "JavaScript Debug.bai5.html.executor": "Run",
-    "JavaScript Debug.bai5a.html.executor": "Coverage",
-    "JavaScript Debug.bai5b.html.executor": "Run",
-    "JavaScript Debug.bai6a.html.executor": "Run",
-    "JavaScript Debug.bai7.html.executor": "Coverage",
-    "JavaScript Debug.baitap2a.html.executor": "Run",
-    "JavaScript Debug.class.html.executor": "Run",
-    "JavaScript Debug.home.html.executor": "Run",
-    "JavaScript Debug.slide1.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Github/23660471_ToThanhHau",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Bai1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai2a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai6a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai5.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai5a.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.bai5b.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai6a.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.bai7.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.baitap2a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.class.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.slide1.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github/23660471_ToThanhHau&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
@@ -89,7 +87,10 @@
       <workItem from="1735624103564" duration="3046000" />
       <workItem from="1735627197401" duration="12354000" />
       <workItem from="1735875329790" duration="15000" />
-      <workItem from="1735875377961" duration="15559000" />
+      <workItem from="1735875377961" duration="16959000" />
+      <workItem from="1735919277287" duration="603000" />
+      <workItem from="1735920324670" duration="10882000" />
+      <workItem from="1735989205979" duration="893000" />
     </task>
     <servers />
   </component>

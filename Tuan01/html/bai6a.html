@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/Bai6a.css">
+	<title>Jackson Electronics Registration Form</title>
+</head>
+<body>
+  <div class="form-container">
+    <div class="header">Jackson Electronics</div>
+    <div class="sub-header">Registration Form</div>
+    <form>
+      <table>
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="firstname"></td>
+          <td>Last Name:</td>
+          <td><input type="text" name="lastname"></td>
+        </tr>
+        <tr>
+          <td>Address #1:</td>
+          <td colspan="3"><input type="text" name="address1"></td>
+        </tr>
+        <tr>
+          <td>Address #2:</td>
+          <td colspan="3"><input type="text" name="address2"></td>
+        </tr>
+        <tr>
+          <td>City:</td>
+          <td><input type="text" name="city"></td>
+          <td>State:</td>
+          <td><input type="text" name="state"></td>
+        </tr>
+        <tr>
+          <td>Zip:</td>
+          <td><input type="text" name="zip"></td>
+          <td>Country:</td>
+          <td><input type="text" name="country" value="United States" readonly></td>
+        </tr>
+        <tr>
+          <td>Product:</td>
+          <td colspan="3">
+            <select name="product">
+              <option value="ScanMaster">ScanMaster</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Date Purchased:</td>
+          <td colspan="3"><input type="date" name="datepurchased"></td>
+        </tr>
+        <tr>
+          <td>Serial #:</td>
+          <td colspan="3"><input type="text" name="serial"></td>
+        </tr>
+        <tr>
+          <td>Used for:</td>
+          <td colspan="3">
+            <input type="radio" name="usedfor" value="Home"> Home
+            <input type="radio" name="usedfor" value="Business"> Business
+            <input type="radio" name="usedfor" value="Government"> Government
+            <input type="radio" name="usedfor" value="Educational"> Educational Institution
+            <input type="radio" name="usedfor" value="Other"> Other
+          </td>
+        </tr>
+        <tr>
+          <td>System (check all that apply):</td>
+          <td colspan="3">
+            <input type="checkbox" name="system" value="Windows"> Windows
+            <input type="checkbox" name="system" value="Macintosh"> Macintosh
+            <input type="checkbox" name="system" value="UNIX"> UNIX
+            <input type="checkbox" name="system" value="Other"> Other
+          </td>
+        </tr>
+        <tr>
+          <td>Comments:</td>
+          <td colspan="3"><textarea name="comments" rows="4"></textarea></td>
+        </tr>
+      </table>
+      <div class="buttons">
+        <input type="submit" value="Click to Register">
+        <input type="reset" value="Click to Cancel">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

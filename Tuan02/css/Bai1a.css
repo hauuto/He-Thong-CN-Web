@@ -1,0 +1,46 @@
+body{
+    border: 2px solid darkred;
+}
+section {
+    h2 {
+        color: darkred;
+        background-color: #f8f4c5;
+        font-size: 40px;
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        li {
+            font-size: 20px;
+        }
+    }
+    a{
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+header > h1{
+    font-style: italic;
+    font-size: 40px;
+    color: darkred;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 18px 26px 12px rgba(255,0,0,0.4);
+}
+nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    a:link{
+        text-decoration: none;
+    };
+}
+
+.note--text{
+    font-weight: bold;
+    color: red;
+    a{
+        color:red;
+    }
+}

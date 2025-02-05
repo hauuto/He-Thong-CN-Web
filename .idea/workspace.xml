@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan01/html/Bai6b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai5a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai5a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai5b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai5b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai6a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan01/html/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan01/html/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan01/html/Bai1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,8 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Bai1.html.executor": "Run",
+    "JavaScript Debug.Bai1a.html.executor": "Run",
+    "JavaScript Debug.Bai2.html.executor": "Run",
     "JavaScript Debug.Bai2a.html.executor": "Run",
     "JavaScript Debug.Bai6a.html.executor": "Run",
     "JavaScript Debug.bai5.html.executor": "Run",
@@ -61,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,12 +67,22 @@
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan02\images" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\html" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\images" />
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\html" />
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan01" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/23660471_ToThanhHau/Tuan02/html/Bai2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Bai2.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -99,7 +106,12 @@
       <workItem from="1735919277287" duration="603000" />
       <workItem from="1735920324670" duration="10882000" />
       <workItem from="1735989205979" duration="893000" />
-      <workItem from="1736087488774" duration="1204000" />
+      <workItem from="1736087488774" duration="1233000" />
+      <workItem from="1736182307211" duration="1773000" />
+      <workItem from="1736539038013" duration="5234000" />
+      <workItem from="1736843130948" duration="663000" />
+      <workItem from="1738705234073" duration="2729000" />
+      <workItem from="1738754079291" duration="5566000" />
     </task>
     <servers />
   </component>
@@ -109,5 +121,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/He_Thong_CN_Web$bai5b_html.dat" NAME="bai5b.html Coverage Results" MODIFIED="1735631385737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/23660471_ToThanhHau$bai7_html.dat" NAME="bai7.html Coverage Results" MODIFIED="1735900120577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/23660471_ToThanhHau$Bai2_html.dat" NAME="Bai2.html Coverage Results" MODIFIED="1736539909950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

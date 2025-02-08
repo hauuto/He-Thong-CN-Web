@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan02/html/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan02/html/Bai2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2qy9lrWm272MsnIPbPAl7I9YlXF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +42,7 @@
     "JavaScript Debug.Bai1a.html.executor": "Run",
     "JavaScript Debug.Bai1b.html.executor": "Coverage",
     "JavaScript Debug.Bai1c.html.executor": "Debug",
-    "JavaScript Debug.Bai2.html.executor": "Debug",
+    "JavaScript Debug.Bai2.html.executor": "Run",
     "JavaScript Debug.Bai2a.html.executor": "Run",
     "JavaScript Debug.Bai6a.html.executor": "Run",
     "JavaScript Debug.Live Edit.executor": "Run",
@@ -49,7 +53,9 @@
     "JavaScript Debug.bai7.html.executor": "Coverage",
     "JavaScript Debug.baitap2a.html.executor": "Run",
     "JavaScript Debug.class.html.executor": "Run",
-    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Debug",
+    "JavaScript Debug.index.html.executor": "Debug",
+    "JavaScript Debug.maze.html.executor": "Debug",
     "JavaScript Debug.slide1.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "hauuto",
@@ -129,7 +135,9 @@
       <workItem from="1738754079291" duration="5938000" />
       <workItem from="1738772880918" duration="4648000" />
       <workItem from="1738862117715" duration="8582000" />
-      <workItem from="1738960707382" duration="20365000" />
+      <workItem from="1738960707382" duration="21019000" />
+      <workItem from="1739017492833" duration="647000" />
+      <workItem from="1739027395466" duration="19338000" />
     </task>
     <servers />
   </component>

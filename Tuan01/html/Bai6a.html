@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        body {
+            background-color: #a0ccfc;
+            line-height: 1.3;
+        }
+
+        .formFormat {
+            display: grid;
+            grid-template-columns: 37% 63%;
+            width: 40%;
+            font-size: larger;
+        }
+
+        .multFormat {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        hr {
+            width: 40%;
+        }
+
+        form {
+            width: 100%;
+            place-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="place-items: center;">
+        <img src="../images/Jackson_Electronics.png" alt="Jackson Electronics">
+
+        <h1>Registration Form</h1>
+
+        <p style="font-size: larger;">Register your Jackson Electronics product here</p>
+
+        <form>
+            <!-- First Section -->
+            <div class="formFormat">
+                <div>
+                    <label for="firstname">First Name:</label> <br>
+                    <label for="address1">Address #1:</label> <br>
+                    <label for="address2">Address #2:</label> <br>
+                    <label for="city">City:</label> <br>
+                    <label for="state">Country:</label> <br>
+                </div>
+
+                <div>
+                    <input type="text" name="firstname" id="firstname" style="width: 150px;">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" style="width: 150px;"> <br>
+                    <input type="text" name="address1" id="address1" style="width: 270px;"> <br>
+                    <input type="text" name="address2" id="address2" style="width: 270px;"> <br>
+                    <input type="text" name="city" id="city" style="width: 185px;">
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state" style="width: 40px;">
+                    <label for="zip">Zip:</label>
+                    <input type="text" name="zip" id="zip" style="width: 90px;"> <br>
+                    <input type="text" name="country" id="country" style="width: 185px;">
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Second Section -->
+            <div class="formFormat">
+                <div>
+                    <label for="product">Product:</label> <br>
+                    <label for="date">Date Purchased:</label> <br>
+                    <label for="serial">Serial#:</label> <br>
+                    <label for="used">Used for:</label> <br> <br> <br>
+                    <label for="system">System (check all that apply):</label> <br>
+                </div>
+
+                <div>
+                    <select id="product" name="product" style="width: 150px;">
+                        <option value="ScanMaster" selected>ScanMaster</option>
+                        <option value="TV">TV</option>
+                        <option value="VCR">VCR</option>
+                        <option value="DVD">DVD</option>
+                        <option value="CD">CD</option>
+                        <option value="Tape">Tape</option>
+                    </select> <br>
+                    <input type="text" name="date" id="date" style="width: 185px;"> <br>
+                    <input type="text" name="serial" id="serial" style="width: 185px;"> <br>
+                    <div class="multFormat">
+                        <div>
+                            <input type="radio" name="used" id="used" value="Home">Home <br>
+                            <input type="radio" name="used" id="used" value="Business">Business <br>
+                            <input type="radio" name="used" id="used" value="Government">Government <br>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="used" id="used" value="Educational Institution">Educational
+                            Institution <br>
+                            <input type="radio" name="used" id="used" value="Other">Other <br>
+                        </div>
+                    </div>
+                    <div class="multFormat">
+                        <div>
+                            <input type="checkbox" name="system" id="system" value="Windows">Windows <br>
+                            <input type="checkbox" name="system" id="system" value="Macintosh">Macintosh <br>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="system" id="system" value="Unix">Unix <br>
+                            <input type="checkbox" name="system" id="system" value="Other">Other
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Third Section -->
+            <div class="formFormat">
+                <div>
+                    <label for="comments">Comments?:</label>
+                </div>
+
+                <div>
+                    <textarea name="comments" id="comments" style="width: 100%; resize: none; font-size: larger;"
+                        rows="6"></textarea>
+                </div>
+            </div>
+
+            <!-- Submit Section -->
+            <div style="display: grid; grid-template-columns: 50% 50%; width: 15.6%;">
+                <div>
+                    <button type="submit" style="font-size: larger;" value="submit">Click to register</button>
+                </div>
+
+                <div style="display: flex; justify-content: flex-end;">
+                    <button type="submit" style="font-size: larger;" value="cancel">Click to cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

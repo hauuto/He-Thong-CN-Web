@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 2px solid darkred;
+}
+section {
+    ul {
+        margin: 0;
+        li {
+            font-size: 20px;
+        }
+    }
+    .link--to--top{
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+header > h1{
+    font-style: italic;
+    font-size: 40px;
+    color: #aa262a;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 0 rgba(255,0,0,0.3);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #ea9598;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 15px;
+    a{
+        float: left;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        border-right: 1px solid blue;
+        padding: 10px 30px;
+    }
+    a:link{
+        text-decoration: none;
+    };
+}
+
+.note--text{
+    font-weight: bold;
+    color: red;
+    a{
+        color:red;
+    }
+}
+
+.column{
+    float: left;
+    padding: 0;
+}
+.left--side{
+    width: 20%;
+
+}
+.right--side{
+    width: 30%;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    a{
+        color: #ea9598;
+    }
+
+}
+.main--side{
+    width: 50%;
+    margin-bottom: 60px;
+
+}
+.nav__left{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav__left--color{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+    background-color: #ea9598;
+    margin: 5px 0;
+    border-radius: 20px;
+    a{
+
+        padding: 0 30px;
+        color: white;
+    }
+    a:link{
+        text-decoration: none;
+    }
+}
+
+.main__heading{
+    font-size: 30px;
+    background-color: #ea9598;
+    color: #aa262a;
+    letter-spacing: 15px;
+
+    padding-inline: 20px;
+    margin-inline: 28%;
+
+
+}
+
+.information__form--input{
+    width: 45%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 15px 15px;
+    box-shadow: 1px 1px 1px gray;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.information__form--button{
+    padding: 12px 10px;
+    box-shadow: 1px 1px 1px gray;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.information__form--button:hover {
+    background-color: #ea9598;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px gray;
+}
+.footer{
+    background-color: #ea9598;
+    color: white;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}

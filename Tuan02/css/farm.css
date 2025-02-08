@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url("../images/background.jpg");
+    margin-inline: 20%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 40px;
+}
+.main::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 22%;
+    width: 2px;
+    background-color: #009900; /* Adjust the color as needed */
+    transform: translateX(-50%);
+}
+.main__left{
+    margin-top: 14px;
+    width: 20%;
+
+    ul{
+        background-color: white;
+        list-style-type: none;
+        padding: 0;
+        height: 180px;
+        border-style: inset;
+        box-shadow:  3px 3px 5px #bbb,
+        6px 6px 1px #aaa,
+        9px 9px 1px #999,
+        -3px -3px 1px #eee
+    }
+    li{
+
+        a{
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 8px 16px;
+
+        }
+        a:hover{
+            background-color: #009900;
+            color: white;
+            cursor: pointer;
+        }
+
+    }
+
+}
+.main__right{
+    width: 80%;
+    color: white;
+}
+.main__right--heading1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    width: 75%;
+    height: 40px;
+    background-color: #009900;
+    letter-spacing: 20px;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.main__right__article{
+    display: flex;
+    flex-direction: row;
+}
+.main__right__article--image{
+    margin-top: 16px;
+}
+.main__right__text--name{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.main__right__text--name::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    margin-right: 8px;
+    background-color: white;
+}
+.main__right--heading2{
+    background-color: #009900;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 50%;
+    height: 3%;
+}
+
+.footer {
+    clear: both;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    padding: 30px 0;
+    border-top: 2px solid #009900;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #009900;
+}

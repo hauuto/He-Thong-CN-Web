@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bài 2</title>
+		<style>
+			*{
+				box-sizing: border-box;
+				font-family: Georgia, serif;
+				text-shadow: 0.5px 0 #6c6b70;
+			}
+
+			#container{
+				margin-inline: 18%;
+			}
+
+			.header{
+				background-image: url("../images/header.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 160px;
+				position: relative;
+
+
+			}
+			.header__nav{
+				background-color: #b0afab;
+				font-size: 22px;
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 25%;
+				position: absolute;
+				top: 100%;
+
+				a{
+					margin-left: 40px;
+					color: white;
+
+				}
+
+				a:link{
+					text-decoration: none;
+				}
+				a:hover{
+					color: black;
+					cursor: pointer;
+				}
+
+			}
+
+			.main{
+				margin-top: 6%;
+				float: left;
+				padding: 0;
+			}
+			.main__left{
+				width: 75%;
+				border-right: 1px solid black;
+				display: flex;
+				flex-direction: column;
+				gap: 60px;
+			}
+
+			.main__left__article{
+				display: flex;
+				flex-direction: row;
+				gap: 30px;
+				color: #6c6b70;
+			}
+
+			.main__left__article__div--image{
+				padding: 10px;
+				border: 1px solid gray;
+			}
+
+			.main__left__article__div--heading{
+				font-size: 30px;
+				margin-bottom: 0;
+				margin-top: 20px;
+			}
+			.main__left__article__div--subheading{
+				font-size: 28px;
+				color: #e288a2;
+				margin-top: 0;
+			}
+			.main__left__article__div--text{
+				font-size: 20px;
+
+			}
+			.main__right{
+				width: 25%;
+				padding-inline: 25px;
+
+			}
+			.main__right_section--heading1{
+				font-size: 30px;
+				margin-top: 20px;
+				color: #e288a2;
+			}
+			.main__right_section__div--heading2{
+				padding-bottom: 25px;
+				margin-inline: 15px;
+				font-size: 20px;
+				border-bottom: 1px solid black;
+				color: #e288a2;
+			}
+			.main__right_section__div--text{
+				padding:0;
+				margin: 0;
+				color: #6c6b70;
+			}
+
+
+			.footer{
+				clear: both;
+				background-color: #b0afab;
+				color: white;
+				padding: 1px 0;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="container">
+			<header class="header">
+				<nav class="header__nav">
+					<a href="">home</a>
+					<a href="">classes</a>
+					<a href="">catering</a>
+					<a href="">about</a>
+					<a href="">contact</a>
+				</nav>
+			</header>
+			<section class="main main__left">
+				<article class="main__left__article">
+					<div class="main__left__article__div--image">
+						<img src="../images/bok-choi.jpg" alt="Bok Choi">
+						<p style="margin: 0;">Bok Choi</p>
+					</div>
+					<div>
+						<p class="main__left__article__div--heading">Japanese Vegetarian</p>
+						<p class="main__left__article__div--subheading">Five week course in London</p>
+						<p class="main__left__article__div--text">A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+					</div>
+
+				</article>
+				<article class="main__left__article">
+					<div class="main__left__article__div--image">
+						<img src="../images/teriyaki.jpg" alt="Teriyaki">
+						<p style="margin: 0;">Teriyaki Sauce</p>
+					</div>
+					<div>
+						<p class="main__left__article__div--heading">Sauces Masterclass</p>
+						<p class="main__left__article__div--subheading">One day workshop</p>
+						<p class="main__left__article__div--text">An intensive one-day course looking at how to create the mos delicious sauces for use in a range of Japanese cookery.</p>
+					</div>
+
+
+				</article>
+			</section>
+			<aside class="main main__right">
+				<section>
+					<p class="main__right_section--heading1">Popular Recipes</p>
+					<div>
+						<p class="main__right_section__div--heading2">Yakitori (grilled chicken)</p>
+						<p class="main__right_section__div--heading2">Tsukune (minced chicken patties)</p>
+						<p class="main__right_section__div--heading2">Okonomiyaki (savory pancakes)</p>
+						<p class="main__right_section__div--heading2">Mizutaki (chicken stew)</p>
+					</div>
+				</section>
+				<section>
+					<p class="main__right_section--heading1">Contact</p>
+					<div>
+						<p class="main__right_section__div--text">Yoko's Kitchen</p>
+						<p class="main__right_section__div--text">27 Redchurch Street</p>
+						<p class="main__right_section__div--text">Shoreditch</p>
+						<p class="main__right_section__div--text">London E2 7DP</p>
+					</div>
+
+
+				</section>
+			</aside>
+			<footer class="footer">
+				<p> &#169 2011 Yoko's Kitchen</p>
+			</footer>
+		</div>
+
+	</body>
+</html>

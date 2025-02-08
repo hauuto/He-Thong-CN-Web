@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan02/html/Bai1a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan02/html/Bai1a.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +32,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Bai1.html.executor": "Run",
-    "JavaScript Debug.Bai1a.html.executor": "Run",
-    "JavaScript Debug.Bai1b.html.executor": "Run",
-    "JavaScript Debug.Bai2.html.executor": "Run",
-    "JavaScript Debug.Bai2a.html.executor": "Run",
-    "JavaScript Debug.Bai6a.html.executor": "Run",
-    "JavaScript Debug.bai5.html.executor": "Run",
-    "JavaScript Debug.bai5a.html.executor": "Run",
-    "JavaScript Debug.bai5b.html.executor": "Run",
-    "JavaScript Debug.bai6a.html.executor": "Coverage",
-    "JavaScript Debug.bai7.html.executor": "Coverage",
-    "JavaScript Debug.baitap2a.html.executor": "Run",
-    "JavaScript Debug.class.html.executor": "Run",
-    "JavaScript Debug.home.html.executor": "Run",
-    "JavaScript Debug.slide1.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hauuto",
-    "last_opened_file_path": "E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau/Tuan02/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Bai1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai1a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai1b.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.Bai1c.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Bai2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai2a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai6a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Live Edit.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai5.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai5a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai5b.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai6a.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.bai7.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.baitap2a.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.class.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.slide1.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hauuto&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau/Tuan02/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan02\images" />
@@ -76,12 +78,24 @@
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Bai1c.html">
+    <configuration name="Bai1c.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/23660471_ToThanhHau/Tuan02/html/Bai1c.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/23660471_ToThanhHau/Tuan02/html/Bai2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="Live Edit" type="JavascriptDebugType" uri="http://localhost:63342/23660471_ToThanhHau/Tuan02/html/Bai1c.html?_ijt=mncim8d29o4sv49d549vduurc6" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Live Edit" />
+      <item itemvalue="JavaScript Debug.Bai1c.html" />
+      <item itemvalue="JavaScript Debug.Bai2.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Bai1c.html" />
         <item itemvalue="JavaScript Debug.Bai2.html" />
       </list>
     </recent_temporary>
@@ -114,7 +128,9 @@
       <workItem from="1736843130948" duration="663000" />
       <workItem from="1738705234073" duration="2729000" />
       <workItem from="1738754079291" duration="5938000" />
-      <workItem from="1738772880918" duration="4478000" />
+      <workItem from="1738772880918" duration="4648000" />
+      <workItem from="1738862117715" duration="8582000" />
+      <workItem from="1738960707382" duration="8463000" />
     </task>
     <servers />
   </component>
@@ -124,7 +140,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/He_Thong_CN_Web$bai5b_html.dat" NAME="bai5b.html Coverage Results" MODIFIED="1735631385737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/23660471_ToThanhHau$bai7_html.dat" NAME="bai7.html Coverage Results" MODIFIED="1735900120577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/23660471_ToThanhHau$Bai1b_html.dat" NAME="Bai1b.html Coverage Results" MODIFIED="1738777259207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/23660471_ToThanhHau$Bai1b_html.dat" NAME="Bai1b.html Coverage Results" MODIFIED="1738863650536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/23660471_ToThanhHau$Bai2_html.dat" NAME="Bai2.html Coverage Results" MODIFIED="1736539909950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/23660471_ToThanhHau$Bai1c_html.dat" NAME="Bai1c.html Coverage Results" MODIFIED="1738961871870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bài 1c</title>
+		<link rel="stylesheet" href="../css/Bai1c.css">
+	</head>
+	<body>
+		<header id="top">
+			<h1>Example Cafe Menu</h1>
+			<nav>
+				<a href="Bai1b.html"><img style="height: 25px;" src="../images/icons8-home-50.png" alt="home"></a>
+				<a href="#starters">Starters</a>
+				<a href="#main-courses">Main courses</a>
+				<a href="#desserts">Desserts</a>
+				<label style="padding: 10px 30px;">
+					<input type="text">
+					<button>Go</button>
+				</label>
+			</nav>
+		</header>
+
+		<section>
+
+
+			<section class="column left--side">
+				<ul class="nav__left">
+					<li class="nav__left--color"><a href="">Cafe Latte</a></li>
+					<li class="nav__left--color"><a href="">Capuchino</a></li>
+					<li class="nav__left--color"><a href="">Ocean Blue</a></li>
+					<li class="nav__left--color"><a href="">Ice-cream Cafe</a></li>
+					<li class="nav__left--color"><a href="">Order Online</a></li>
+				</ul>
+				<img src="../images/company.png" alt="Staff" style="height: 200px; display: flex; justify-content: center; box-shadow: 18px 26px 40px #ea9598; border-radius: 50%">
+			</section>
+
+
+
+			<section class="column main--side">
+				<section id ="starters">
+					<h2 class="main__heading">Starters</h2>
+					<ul>
+						<li>Chestnut and Mushroom Goujons <span class="note--text">(<a href="#note">v</a>)</span></li>
+						<li>Goat Cheese Salad <span class="note--text">(<a href="#note">v</a>)</span></li>
+						<li><span style="color: #c97351; text-transform: uppercase; font-weight: bold;">Honey Soy Chicken Kebabs</span> <span class="note--text">(<a href="#note">V</a>)</span></li>
+						<li>Seafood Salad</li>
+					</ul>
+					<a href="#top" class="link--to--top">Back to top</a>
+				</section>
+				<section id="main-courses">
+					<h2 class="main__heading">Main courses</h2>
+					<ul>
+						<li>Spinach and Ricotta Roulade <span class="note--text">(<a href="#note">v</a>)</span></li>
+						<li>Beef Tournados with Mustard and Dill Sauce</li>
+						<li>Roast Chicken Salad</li>
+						<li>Mushroom Wellington <span class="note--text">(<a href="#note">v</a>)</span></li>
+					</ul>
+					<a href="#top" class="link--to--top">Back to top</a>
+				</section>
+
+				<section id="desserts">
+					<h2 class="main__heading">Desserts</h2>
+					<ul>
+						<li>Lemon Sorbet <span class="note--text">(<a href="#note">v</a>)</span></li>
+						<li>Chocolate Mud Pie <span class="note--text">(<a href="#note">v</a>)</span></li>
+						<li>Pecan Pie <span class="note--text">(<a href="#note">v</a>)</span></li>
+						<li>Selection of Fine Cheeses from Around the World</li>
+					</ul>
+					<a href="#top" class="link--to--top">Back to top</a>
+				</section>
+				<p id="note">Items marked with a (v) are suitable for vegetarians.</p>
+
+				<section id="information">
+					<h2 class="main__heading" style="text-transform: uppercase;">Information</h2>
+					<form>
+						<input type="text" placeholder="First Name" class="information__form--input">
+						<input type="text" placeholder="Last Name" class="information__form--input">
+						<input type="email" placeholder="Email" class="information__form--input">
+						<input type="number" placeholder="Telephone" class="information__form--input">
+						<select class="information__form--input">
+							<option>USA</option>
+							<option>Vietnam</option>
+							<option>Other</option>
+						</select>
+						<div style="display: inline-block;width: 40%;height: 50%;margin: 15px 15px;">
+							<input type="radio" id="vn" name="nationality" value="Vietnamese">
+							<label for="vn">Vietnamese</label>
+							<input type="radio" id="other" name="nationality" value="Foreigner">
+							<label for="other">Foreigner</label>
+						</div>
+
+						<textarea style="width: 94%; height: 80px; margin: 15px 15px;" name="Comment">Comment</textarea>
+						<button class="information__form--button">Submit</button>
+						<button class="information__form--button">Cancel</button>
+
+
+
+
+					</form>
+				</section>
+			</section>
+			<section class="column right--side">
+				<div>
+					<h1 style="font-size: 40px;margin: 0;">Events</h1>
+					<div style="padding-inline: 50px; margin-top: 30px;">
+						<div>
+							<h2 style="margin: 0; font-size: 30px;">Regular Meetings</h2>
+							<img  src="../images/meeting.png" alt="Meeting" style="width: 100%; margin:0;">
+							<p style="margin: 0;">Host your regular team meetings or activities in the comfort of your own private room. <a href="">Read more...</a>
+							</p>
+						</div>
+						<div style="margin-top: 40px;">
+							<h2 style="margin: 0; font-size: 30px;">Product Launches</h2>
+							<img src="../images/launch.png" alt="Launch" style="width: 100%; margin:0;">
+							<p style="margin: 0;">Launch your product with ease in a space that truly fits its image.
+								<a href="">Read more...</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</section>
+		<footer class="footer">
+			<p>ABC Company &#169 - 23660471 - abccoffee@gmail.com</p>
+		</footer>
+
+
+
+	</body>
+</html>

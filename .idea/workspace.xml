@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="" />
+    <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,8 +65,8 @@
     "JavaScript Debug.t.html.executor": "Run",
     "JavaScript Debug.test.html.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hauuto",
-    "last_opened_file_path": "E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau/Tuan03/images",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Github/He-Thong-CN-Web",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,11 +84,11 @@
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\He-Thong-CN-Web\Tuan04\css" />
+      <recent name="D:\Github\He-Thong-CN-Web\Tuan04" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan02\images" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\html" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\images" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan01\html" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -128,6 +130,7 @@
       <workItem from="1739283174432" duration="2829000" />
       <workItem from="1739610300818" duration="894000" />
       <workItem from="1739804456807" duration="10851000" />
+      <workItem from="1740464267375" duration="3176000" />
     </task>
     <servers />
   </component>

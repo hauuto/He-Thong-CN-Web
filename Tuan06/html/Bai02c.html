@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="coffeeForm">
+      <h1>Chọn loại cà phê</h1>
+      <input
+        type="checkbox"
+        id="checkbox1"
+        name="coffee"
+        value="Trung Nguyên"
+      />
+      <label for="checkbox1"> Trung Nguyên</label><br />
+
+      <input type="checkbox" id="checkbox2" name="coffee" value="Mekong" />
+      <label for="checkbox2"> Mekong</label><br />
+
+      <input type="checkbox" id="checkbox3" name="coffee" value="New Life" />
+      <label for="checkbox3"> New Life</label><br />
+
+      <input type="checkbox" id="checkbox4" name="coffee" value="Ocean Blue" />
+      <label for="checkbox4"> Ocean Blue</label><br />
+
+      <input type="checkbox" id="checkbox5" name="coffee" value="Blue Space" />
+      <label for="checkbox5"> Blue Space</label><br />
+
+      <input type="checkbox" id="checkbox6" name="coffee" value="Windows" />
+      <label for="checkbox6"> Windows</label><br />
+
+      <button type="button" onclick="showSelected()">Chọn</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+      function showSelected() {
+        const checkboxes = document.querySelectorAll(
+          'input[name="coffee"]:checked'
+        );
+        const selected = Array.from(checkboxes).map(
+          (checkbox) => checkbox.value
+        );
+        document.getElementById("result").innerText =
+          "Bạn đã chọn: " + selected.join(", ");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2">PHÉP TÍNH CƠ BẢN</th>
+      </tr>
+
+      <tr>
+        <td>Nhập số thứ 1</td>
+        <td><input type="text" name="num1" id="num1" required />(*)</td>
+      </tr>
+
+      <tr>
+        <td>Nhập số thứ 2</td>
+        <td><input type="text" name="num2" id="num2" required />(*)</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <button id="cong" onclick="cong()">Cộng</button>
+          <button id="tru" onclick="tru()">Trừ</button>
+          <button id="chia" onclick="chia()">Chia</button>
+          <button id="chiadu" onclick="chiadu()">Chia dư</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Kết quả:</td>
+        <td><input type="text" name="ans" id="ans" /></td>
+      </tr>
+    </table>
+  </body>
+
+  <script>
+    function cong() {
+      var num1 = parseFloat(document.getElementById("num1").value);
+      var num2 = parseFloat(document.getElementById("num2").value);
+      var res = document.getElementById("ans");
+      res.value = num1 + num2;
+    }
+
+    function tru() {
+      var num1 = parseFloat(document.getElementById("num1").value);
+      var num2 = parseFloat(document.getElementById("num2").value);
+      var res = document.getElementById("ans");
+      res.value = num1 - num2;
+    }
+
+    function chia() {
+      var num1 = parseFloat(document.getElementById("num1").value);
+      var num2 = parseFloat(document.getElementById("num2").value);
+      var res = document.getElementById("ans");
+      if (num2 !== 0) {
+        res.value = num1 / num2;
+      } else {
+        res.value = "Cannot divide by zero";
+      }
+    }
+
+    function chiadu() {
+      var num1 = parseFloat(document.getElementById("num1").value);
+      var num2 = parseFloat(document.getElementById("num2").value);
+      var res = document.getElementById("ans");
+      if (num2 !== 0) {
+        res.value = num1 % num2;
+      } else {
+        res.value = "Cannot divide by zero";
+      }
+    }
+  </script>
+</html>

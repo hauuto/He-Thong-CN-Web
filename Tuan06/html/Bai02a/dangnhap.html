@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2">THÔNG TIN ĐĂNG NHẬP</th>
+      </tr>
+      <tr>
+        <td>Họ tên</td>
+        <td><input type="text" id="username" name="username" disabled /></td>
+      </tr>
+      <tr>
+        <td>Mật khẩu</td>
+        <td><input type="text" id="password" name="password" disabled /></td>
+      </tr>
+    </table>
+  </body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    console.log(params);
+
+    var user = document.getElementById("username");
+    var pass = document.getElementById("password");
+    user.value = params.get("username");
+    pass.value = params.get("password");
+  </script>
+</html>

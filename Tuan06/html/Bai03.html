@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <img src="../images/b1.jpg" alt="" id="slide" />
+      <br />
+      <button>Play</button>
+      <button>Stop</button>
+    </div>
+  </body>
+
+  <script>
+    const images = [];
+    for (let i = 1; i <= 10; i++) {
+      images.push(`../images/b${i}.jpg`);
+    }
+
+    let timer;
+    const slide = document.getElementById("slide");
+    const playButton = document.querySelector("button:nth-of-type(1)");
+    const stopButton = document.querySelector("button:nth-of-type(2)");
+
+    function changeImage() {
+      const randomIndex = Math.floor(Math.random() * images.length);
+      slide.src = images[randomIndex];
+      timer = setTimeout(changeImage, 500);
+    }
+
+    playButton.addEventListener("click", () => {
+      changeImage();
+    });
+
+    stopButton.addEventListener("click", () => {
+      clearTimeout(timer);
+    });
+  </script>
+</html>

@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="merge">
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai03a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai03a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan06/html/Bai2a/DangKy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.Bai01.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.Bai02.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Bai02c.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Bai03.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.Bai1.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.Bai1a.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.Bai1b.html.executor&quot;: &quot;Run&quot;,
@@ -93,11 +90,11 @@
       <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan04\css" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan04" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan02\images" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan06\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan06\Bai02c" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan06\html\Bai2b" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan06\html\Bai2a" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan06\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,6 +138,7 @@
       <workItem from="1739804456807" duration="10851000" />
       <workItem from="1740464267375" duration="4034000" />
       <workItem from="1740901422442" duration="6843000" />
+      <workItem from="1741022496949" duration="523000" />
     </task>
     <servers />
   </component>

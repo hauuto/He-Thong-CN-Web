@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .form-control,
+        .form-select {
+            margin-bottom: 10px;
+        }
+        
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="width: 300px; height: 50px; margin-top: 50px;">ĐĂNG NHẬP/ĐĂNG KÝ</button>
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#loginTab" class="nav-link active" data-bs-toggle="pill">ĐĂNG NHẬP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#registerTab" class="nav-link" data-bs-toggle="pill">ĐĂNG KÝ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content">
+                            <div class="tab-pane container mt-10 active" id="loginTab">
+                                <p class="text-muted mb-3">Vui lòng đăng nhập trươc skhi mua vé để tích lũy điểm, cơ hội nhận thêm nhiều ưu đãi từ chương trình thành viên Galaxy Cinema</p>
+                                <input type="email" class="form-control mb-3" placeholder="Email">
+                                <input type="password" class="form-control mb-3" placeholder="Mật khẩu">
+                                <a href="#" class="text-muted text-decoration-none">Quên
+                                    mật
+                                    khẩu?</a>
+                                <div>
+                                    <button type="submit" class="btn mb-3" style="background-color: #f46c3c; width: 100%; margin-top: 5px;">ĐĂNG
+                                        NHẬP</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane container mb-3" id="registerTab">
+                                <input type="text" class="form-control" placeholder="Họ tên">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Số điện thoại">
+                                    </div>
+                                    <div class="col-6">
+                                        <select name="" id="" class="form-select">
+                                            <option value="">Chọn giới tính</option>
+                                            <option value="">Nam</option>
+                                            <option value="">Nữ</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="email" class="form-control" placeholder="Email">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="password" class="form-control" placeholder="Xác nhận mật khẩu">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <select name="" id="" class="form-select">
+                                            <option value="">Chọn thành phố</option>
+                                            <option value="">Sóc Trăng</option>
+                                            <option value="">Thành phố Hồ Chí Minh</option>
+                                            <option value="">Hà Nội</option>
+                                            <option value="">Đà Nẵng</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <select name="" id="" class="form-select">
+                                            <option value="">Quận</option>
+                                            <option value="">Quận 1</option>
+                                            <option value="">Quận 2</option>
+                                            <option value="">Quận 3</option>
+                                            <option value="">Quận 4</option>
+                                            <option value="">Quận 5</option>
+                                            <option value="">Quận Gò Vấp</option>
+                                            <option value="">Quận Tân Bình</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Địa chỉ" class="form-control">
+                                <input type="date" class="form-control">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="../img/capcha.png" alt="" style="width: 200px;">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Nhập mã capcha">
+                                    </div>
+                                </div>
+                                <p class="text-muted">Tôi đã đọc và đồng ý với <b style="color: #f46c3c;">CHÍNH SÁCH</b> của chương trình.</p>
+                                <button type="submit" class="btn" style="background-color: #f46c3c; width: 100%; ">ĐĂNG
+                                    KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

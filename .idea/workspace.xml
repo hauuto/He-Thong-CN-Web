@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan05/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai03a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai03a.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     "JavaScript Debug.Bai01.html.executor": "Run",
     "JavaScript Debug.Bai01a.html.executor": "Run",
     "JavaScript Debug.Bai01b.html.executor": "Run",
-    "JavaScript Debug.Bai02.html.executor": "Debug",
+    "JavaScript Debug.Bai02.html.executor": "Run",
     "JavaScript Debug.Bai02c.html.executor": "Run",
     "JavaScript Debug.Bai03.html.executor": "Run",
     "JavaScript Debug.Bai03a.html.executor": "Run",
@@ -68,6 +66,7 @@
     "JavaScript Debug.baitap2a.html.executor": "Run",
     "JavaScript Debug.class.html.executor": "Run",
     "JavaScript Debug.dangky.html.executor": "Run",
+    "JavaScript Debug.dangkythanhcong.html.executor": "Run",
     "JavaScript Debug.dangnhap.html.executor": "Run",
     "JavaScript Debug.home.html.executor": "Debug",
     "JavaScript Debug.index.html.executor": "Debug",
@@ -76,9 +75,11 @@
     "JavaScript Debug.start.html.executor": "Debug",
     "JavaScript Debug.t.html.executor": "Run",
     "JavaScript Debug.test.html.executor": "Debug",
+    "Node.js.Bai01.js.executor": "Run",
+    "Node.js.Bai02.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "hauuto",
-    "last_opened_file_path": "E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau/Tuan05/html",
+    "last_opened_file_path": "E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,18 +92,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan07\images" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan07\js" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\images" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\template\css" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan04\css" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\template\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan08" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan08\html" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html\bai02" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan04\html" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan03\html" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\js" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -148,6 +149,8 @@
       <workItem from="1740901422442" duration="6843000" />
       <workItem from="1741022496949" duration="523000" />
       <workItem from="1741506109365" duration="16776000" />
+      <workItem from="1742091112572" duration="624000" />
+      <workItem from="1742133392312" duration="6259000" />
     </task>
     <servers />
   </component>

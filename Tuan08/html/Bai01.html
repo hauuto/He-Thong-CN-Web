@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<script src="../js/jquery-3.7.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/Bai01.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#frmdk">Mở Modal</button>
+			<table class="table table-bordered m-3" id='tbl'>
+				<tr>
+					<th>STT</th>
+					<th>Tên đăng nhập</th>
+					<th>Mật khẩu</th>
+					<th>Năm sinh</th>
+				</tr>
+			</table>
+		</div>
+		<!-- Tao Modal -->
+		<div class="modal fade" id="frmdk" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="text-center">Đăng ký tài khoản</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form id="form1">
+							<div class="row form-group">
+								<label for="txttendn" class="col-3 text-right">Tên đăng nhập</label>
+								<div class="col-9">
+									<input type="text" class="form-control" id='txttendn' onblur="kttendn();">
+									<span id='ertendn'>*</span>
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="txtmk" class="col-3 text-right">Mật khẩu</label>
+								<div class="col-9">
+									<input type="password" class="form-control" id='txtmk'>
+									<span id="ermk">*</span>
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="txtmk2" class="col-3 text-right">Xác nhận mật khẩu</label>
+								<div class="col-9">
+									<input type="password" class="form-control" id='txtmk2' onblur="ktnhaplaimk();">
+									<span id="ermk2">*</span>
+								</div>
+							</div>
+						</form>
+						<form id="form2">
+							<h3 class="text-center">Thông tin cá nhân</h3>
+							<div class="row form-group">
+								<label for="hoten" class="col-3 text-right">Họ tên</label>
+								<div class="col-9">
+									<input type="text" class="form-control" id="hoten">
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="datens" class="col-3 text-right">Ngày sinh</label>
+								<div class="col-9">
+									<input type="date" class="form-control" id='datens' onblur="ktngaysinh()">
+									<span id="erns">*</span>
+								</div>
+							</div>
+							<div class="row form-group">
+								<label class="col-3 text-right">Giới tính</label>
+								<div class="col-9">
+									<input type="radio" name='gioitinh' value="Nam"> Nam
+									<input type="radio" name='gioitinh' value="Nu"> Nữ
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="diachi" class="col-3 text-right">Địa chỉ</label>
+								<div class="col-9">
+									<input type="text" class="form-control" id="diachi">
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="sdt" class="col-3 text-right">Số điện thoại</label>
+								<div class="col-9">
+									<input type="text" class="form-control" id="sdt">
+								</div>
+							</div>
+							<div class="row form-group">
+								<label for="email" class="col-3 text-right">Email</label>
+								<div class="col-9">
+									<input type="text" class="form-control" id="email">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-12 text-center">
+									<input type="button" class="btn btn-dark" value="Đăng ký" onclick="ketqua()">
+									<input type="reset" class="btn btn-dark" value="Hủy">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Hủy</button>
+					</div>
+					<div class="modal-footer">
+						mssv_hoten
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

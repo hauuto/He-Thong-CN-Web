@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<script src="../js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container mt-5">
+			<div class="card">
+				<div class="card-header">
+					<h2>Thông tin đăng ký</h2>
+				</div>
+				<div class="card-body">
+					<h3>Tên: <span id="name"></span></h3>
+					<h3>Mật khẩu: <span id="password"></span></h3>
+					<h3>Ngày sinh: <span id="dateofbirth"></span></h3>
+				</div>
+			</div>
+		</div>
+		<script>
+			document.getElementById('name').textContent = localStorage.getItem("name");
+			document.getElementById('password').textContent = localStorage.getItem('password');
+			document.getElementById('dateofbirth').textContent = localStorage.getItem('dateofbirth');
+		</script>
+	</body>
+
+</html>

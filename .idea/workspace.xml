@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="merge">
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai02d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai02d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan04/html/Bai03a.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan04/html/Bai03a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuan06/html/Bai2a/DangKy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,65 +34,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Bai01.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai02.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.Bai1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai1a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai1b.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai1c.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.Bai2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai2a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai6a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai6b.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Bai6c.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.Bai7.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.DangKy.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Live Edit.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.bai5.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai5a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai5b.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai6a.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.bai7.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.baitap2a.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.class.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.dangky.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.dangnhap.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.maze.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.slide1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.start.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.t.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hauuto&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau/Tuan06/css&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Bai01.html.executor": "Run",
+    "JavaScript Debug.Bai01a.html.executor": "Run",
+    "JavaScript Debug.Bai01b.html.executor": "Run",
+    "JavaScript Debug.Bai02.html.executor": "Run",
+    "JavaScript Debug.Bai02c.html.executor": "Run",
+    "JavaScript Debug.Bai03.html.executor": "Run",
+    "JavaScript Debug.Bai03a.html.executor": "Run",
+    "JavaScript Debug.Bai03b.html.executor": "Run",
+    "JavaScript Debug.Bai1.html.executor": "Run",
+    "JavaScript Debug.Bai1a.html.executor": "Run",
+    "JavaScript Debug.Bai1b.html.executor": "Run",
+    "JavaScript Debug.Bai1c.html.executor": "Debug",
+    "JavaScript Debug.Bai2.html.executor": "Run",
+    "JavaScript Debug.Bai2a.html.executor": "Run",
+    "JavaScript Debug.Bai6a.html.executor": "Run",
+    "JavaScript Debug.Bai6b.html.executor": "Run",
+    "JavaScript Debug.Bai6c.html.executor": "Debug",
+    "JavaScript Debug.Bai7.html.executor": "Run",
+    "JavaScript Debug.DangKy.html.executor": "Run",
+    "JavaScript Debug.Live Edit.executor": "Debug",
+    "JavaScript Debug.about.html.executor": "Run",
+    "JavaScript Debug.bai5.html.executor": "Run",
+    "JavaScript Debug.bai5a.html.executor": "Run",
+    "JavaScript Debug.bai5b.html.executor": "Run",
+    "JavaScript Debug.bai6a.html.executor": "Coverage",
+    "JavaScript Debug.bai7.html.executor": "Coverage",
+    "JavaScript Debug.baitap2a.html.executor": "Run",
+    "JavaScript Debug.class.html.executor": "Run",
+    "JavaScript Debug.dangky.html.executor": "Run",
+    "JavaScript Debug.dangkythanhcong.html.executor": "Run",
+    "JavaScript Debug.dangnhap.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Debug",
+    "JavaScript Debug.index.html.executor": "Debug",
+    "JavaScript Debug.maze.html.executor": "Debug",
+    "JavaScript Debug.slide1.html.executor": "Run",
+    "JavaScript Debug.start.html.executor": "Debug",
+    "JavaScript Debug.t.html.executor": "Run",
+    "JavaScript Debug.test.html.executor": "Debug",
+    "Node.js.Bai01.js.executor": "Run",
+    "Node.js.Bai02.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hauuto",
+    "last_opened_file_path": "E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "liveEdit",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan06\css" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan03\images" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan02\images" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan01\images" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan07\images" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan07\js" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan04\css" />
-      <recent name="D:\Github\He-Thong-CN-Web\Tuan04" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan02\images" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan01\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan08" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan08\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html\bai02" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html" />
+      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan04\html" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,6 +147,10 @@
       <workItem from="1739804456807" duration="10851000" />
       <workItem from="1740464267375" duration="4034000" />
       <workItem from="1740901422442" duration="6843000" />
+      <workItem from="1741022496949" duration="523000" />
+      <workItem from="1741506109365" duration="16776000" />
+      <workItem from="1742091112572" duration="624000" />
+      <workItem from="1742133392312" duration="6259000" />
     </task>
     <servers />
   </component>

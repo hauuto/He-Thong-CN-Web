@@ -35,6 +35,18 @@ function ktngaysinh() {
     }
 }
 
+function ktHoTen(){
+    let hoTen = document.getElementById('txtHoTen').value;
+    let patten = /^[A-Z][a-z]+(\s[A-Z][a-z]+)+$/;
+    if (patten.test(hoTen)) {
+        document.getElementById('erHoTen').innerHTML = "*";
+        return true;
+    } else {
+        document.getElementById('erHoTen').innerHTML = "Họ tên sai!!!";
+        return false;
+    }
+}
+
 let stt = 1;
 
 function ketqua() {

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 1</title>
+	<link rel="stylesheet" href='../css/bootstrap.min.css'>
+	<script src='../js/jquery-3.7.1.min.js'></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container border border-primary">
+		<div class="row">
+
+			<div class="col-12">
+				<img src="../images/website.png" alt="banner" class="w-100">
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar navbar-expand navbar-light bg-light">
+					<div class="container-fluid">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link text-primary" href="#">Trang chủ</a></li>
+							<li class="nav-item"><a class="nav-link text-primary" href="#"
+							                        data-bs-toggle="modal"
+							                        data-bs-target="#modalDangKy">Đăng
+							                                                                               ký</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-12">
+				<div class="text-center fs-1">LIST OF MEMBERS</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">STT</th>
+							<th scope="col">Họ và tên</th>
+							<th scope="col">Giới tính</th>
+							<th scope="col">Số điện thoại</th>
+							<th scope="col">Ngày sinh</th>
+							<th scope="col">Địa chỉ</th>
+							<th scope="col">Khóa học</th>
+							<th scope="col">Học phí</th>
+						</tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+
+				</table>
+			</div>
+
+		</div>
+
+		<div id="modalDangKy" class="modal fade" role="dialog">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+
+				<div class="modal-content">
+					<div class="modal-header d-flex justify-content-center fs-3">
+						THÔNG TIN HỌC VIÊN
+
+					</div>
+
+					<div class="modal-body">
+						<form class="form form-control ps-5 ">
+							<div class="row mb-5 mt-3">
+								<div class="col-4"><label for="fullName">Họ và tên <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="text" id="fullName" required> </div>
+
+							</div>
+
+							<div class="row mb-5">
+								<div class="col-4"><label for="phone">Số điện thoại <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="text" id="phone" required></div>
+							</div>
+
+							<div class="row mb-5">
+								<div class="col-4"><label for="dayOfBirth">Ngày sinh <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="date" id="dayOfBirth" required> </div>
+							</div>
+
+							<div class="row mb-5">
+								<div class="col-4"><label for="direction">Địa chỉ <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="text" id="direction" required> </div>
+							</div>
+
+							<div class="row mb-5">
+								<div class="col-4"><label for="course">Khóa học tham gia <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="text" id="course" required> </div>
+							</div>
+
+							<div class="row mb-5">
+								<div class="col-4"><label for="tuition">Học phí <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="text" id="tuition" required> </div>
+							</div>
+
+							<div class="row mb-5">
+								<div class="col-4"><label for="photo">Ảnh đại diện <span class="text-danger">*</span></label></div>
+								<div class="col-8"><input class="form-control" type="text" id="photo" required> </div>
+							</div>
+
+
+
+
+
+
+
+
+						</form>
+
+					</div>
+
+					<div class="modal-footer">
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>

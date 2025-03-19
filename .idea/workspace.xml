@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dce3991c-e194-495a-93e8-2404a1d17f71" name="Changes" comment="merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan08/html/Bai01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan08/html/Bai01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuan08/js/Bai01.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tuan08/js/Bai01.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,6 +58,7 @@
     "JavaScript Debug.Bai6b.html.executor": "Run",
     "JavaScript Debug.Bai6c.html.executor": "Debug",
     "JavaScript Debug.Bai7.html.executor": "Run",
+    "JavaScript Debug.CK.html.executor": "Run",
     "JavaScript Debug.DangKy.html.executor": "Run",
     "JavaScript Debug.Live Edit.executor": "Debug",
     "JavaScript Debug.about.html.executor": "Run",
@@ -77,9 +81,10 @@
     "JavaScript Debug.test.html.executor": "Debug",
     "Node.js.Bai01.js.executor": "Run",
     "Node.js.Bai02.js.executor": "Run",
+    "Node.js.CK.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hauuto",
-    "last_opened_file_path": "E:/IUH/Nam 2 2024-2025/Hk2/He-Thong-CN-Web/23660471_ToThanhHau",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Github/He-Thong-CN-Web/template/img",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -92,11 +97,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\He-Thong-CN-Web\template\img" />
+      <recent name="D:\Github\He-Thong-CN-Web" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan07\images" />
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan07\js" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\html" />
-      <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan05\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IUH\Nam 2 2024-2025\Hk2\He-Thong-CN-Web\23660471_ToThanhHau\Tuan08" />
@@ -151,6 +156,8 @@
       <workItem from="1741506109365" duration="16776000" />
       <workItem from="1742091112572" duration="624000" />
       <workItem from="1742133392312" duration="6259000" />
+      <workItem from="1742282133048" duration="1972000" />
+      <workItem from="1742284891999" duration="7989000" />
     </task>
     <servers />
   </component>
